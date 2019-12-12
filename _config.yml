@@ -21,9 +21,9 @@
 title: John Foley
 email: johnfoley3@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hello! My name is John Foley, and this blog is where I'll attempt
+  to store useful notes, snippets, thoughts, and rants from my software
+  engineering journey.
 baseurl: "/"
 url: "https://blog.johnfoley.dev"
 github_username:  johnfoley3
@@ -31,6 +31,7 @@ github_username:  johnfoley3
 # Build settings
 theme: minima
 plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
